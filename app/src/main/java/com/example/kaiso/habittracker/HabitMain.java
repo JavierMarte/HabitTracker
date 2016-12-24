@@ -18,4 +18,5 @@ public class HabitMain  extends AppCompatActivity {
         FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
         fragmentTransaction.add(R.id.frameLayout, new HabitFragment()).commit();
     }
+
 }

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:id="@+id/itemlist">
+
+    <TableRow android:layout_width="fill_parent"
+        android:id="@+id/TableRow01"
+        android:layout_height="wrap_content"
+        android:background="#377f99">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView"
+            android:layout_column="5" />
+
+        <TextView android:textColor="#0d0a0a"
+            android:id="@+id/companyname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="idd" android:textStyle="bold"
+
+
+            android:height="40dp" />
+
+        <TextView
+            android:textColor="#0d0a0a"
+            android:id="@+id/qoute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="qoute"
+            android:textStyle="bold"
+
+            android:layout_weight="1"
+            android:height="40dp"
+            android:layout_marginLeft="150dp" />
+
+    </TableRow>
+
+</TableLayout>
